@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <Button
          href='#'
-          onClick={()=>alert('da Vjncj dissonance')}
+          onClick={()=>alert('da vjncj dissonance')}
            variant='outlined'
             color='secondary'
             size='small'
