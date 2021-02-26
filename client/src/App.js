@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Button from '@material-ui/core/Button'
+import SaveIcon from '@material-ui/icons/Save';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
            variant='outlined'
             color='secondary'
             size='small'
-            style={{fontSize:12}}>{/**I can make anything I want to happen, happen on the click of a button|I can even run a function from my store directory|figured out how to comprehend the|can set buttons to a 'Link' */}
+            style={{fontSize:12}}
+            startIcon={<SaveIcon/>}>{/**I can make anything I want to happen, happen on the click of a button|I can even run a function from my store directory|figured out how to comprehend the|can set buttons to a 'Link' */}
           2D surface layer
         </Button>
         <img src={logo} className="App-logo" alt="logo" />
